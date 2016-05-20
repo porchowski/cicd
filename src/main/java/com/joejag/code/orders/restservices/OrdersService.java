@@ -48,7 +48,7 @@ public class OrdersService
    @Produces("text/html")
    public String list()
    {
-      String header = "<h2>ll Orders</h2>\n";
+      String header = "<h2>l Orders</h2>\n";
 
       header += "<ul>";
       for (Map.Entry<String, String> order : orders.entrySet())
